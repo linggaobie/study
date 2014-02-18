@@ -1,0 +1,130 @@
+
+C 语言学习
+
+
+
+	计算机原理
+		运算器，存储器， 输入输出设备(IO device)：冯-诺依曼体系结构！
+		二进制的数据存储原理。
+		基本计量单位：
+			8位(bit)=1字节(Byte)，
+			1024字节(Byte)=1千字节(KByte), 
+			1024千字节(KByte)=1兆字节(MByte),
+			1024兆字节(MByte)=1千兆字节(GByte)，
+			1024千兆字节(GByte)=1兆兆字节(TByte)。
+
+
+
+
+	当前个人计算机常见配置。
+		CPU：3兆兆次的计算频率（3.0G）
+		内存：2千兆字节。
+		硬盘：256千兆字节。
+
+
+
+	C语言
+		C语言的组成：语言语法标准，编译器（语法编译器，汇编器，链接器），C语言运行时库(CRT C Runtime Library)
+
+	类型与变(常)量
+
+		基本类型
+			char, short, int, long, long long, 这些都是整形，可带unsigned前缀标记为无符号类型。
+			整型就是用整形编码标准（多种）对应的一段特定长度的内存。
+
+			float, double.
+			浮点数就是用浮点数编码标准（多种）对应的一段特定长度的内存。	
+		
+			void类型
+
+		指针类型
+			所有基本类型在定义时，在类型名后添加*字符，表示该类型的指针类型。
+			&取址，*取值
+
+		类型转换
+			destination_var = (type)source_var;
+				float f = -1.63456;
+				int n = f;
+				n ? 
+				(n == -1)
+
+
+	表达式
+		执行优先级
+			从右向左赋值
+		作用域原理
+			就近原则
+		算数表达式
+			+, -, *, /, %（余）
+
+		逻辑表达式
+			&&（并且）, ||（或）,==（判断是否相等）,!=（不等于）,>=,<=,>,<
+
+		条件表达式
+			if, switch, ?:三目运算符
+			if(condition1){}else if(condition2){}else{}
+
+		循环表达式
+			for, while, do while
+			for(initialize,condition,post-operator){}
+
+		位运算表达式
+			&, |, ~, ^
+
+	函数
+		什么是函数？
+		ReturnType FunctionName(ParameterType1 Parameter1, ParameterType2 Parameter2,…)
+		{
+			Function Body.
+		}
+		FunctionName(Param1, Param2, …);
+
+	数组
+		DataType DataName[ElementCount] = {};
+
+	字符串
+		什么是字符串？
+		'a', "abcd"
+
+
+	高级数据结构
+		struct
+		enum
+		union
+
+	内存分配与释放
+		malloc/free
+		calloc/realloc
+		strdup
+
+
+	错误与异常
+
+		空指针异常
+
+		野指针异常
+
+		堆泄露
+
+
+	C语言运行时库
+
+
+	源代码组织原则
+
+
+	调试
+		__FILE__与__LINE__
+		断点，监视，调用堆栈	
+
+
+
+
+
+
+
+
+
+
+
+	
